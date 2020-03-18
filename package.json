@@ -1,0 +1,46 @@
+{
+  "name": "react_native_github",
+  "version": "0.0.1",
+  "private": true,
+  "scripts": {
+    "android": "react-native run-android",
+    "ios": "react-native run-ios",
+    "start": "react-native start",
+    "test": "jest",
+    "lint": "eslint ."
+  },
+  "dependencies": {
+    "@react-native-community/masked-view": "^0.1.7",
+    "@react-native-community/viewpager": "^3.3.0",
+    "GitHubTrending": "^3.1.5",
+    "react": "16.9.0",
+    "react-native": "0.61.5",
+    "react-native-easy-toast": "^1.2.0",
+    "react-native-gesture-handler": "^1.6.0",
+    "react-native-htmlview": "^0.15.0",
+    "react-native-popover": "github:jeanregisser/react-native-popover#8a443d2699b404d55c324edc8536255150340789",
+    "react-native-reanimated": "^1.7.0",
+    "react-native-safe-area-context": "^0.7.3",
+    "react-native-screens": "^2.3.0",
+    "react-native-scrollable-tab-view": "^1.0.0",
+    "react-native-tab-navigator": "^0.3.4",
+    "react-native-vector-icons": "^6.6.0",
+    "react-native-webview": "^8.1.2",
+    "react-navigation": "^4.2.2",
+    "react-navigation-stack": "^2.2.3",
+    "redux": "^4.0.5"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.6.2",
+    "@babel/runtime": "^7.6.2",
+    "@react-native-community/eslint-config": "^0.0.5",
+    "babel-jest": "^24.9.0",
+    "eslint": "^6.5.1",
+    "jest": "^24.9.0",
+    "metro-react-native-babel-preset": "^0.56.0",
+    "react-test-renderer": "16.9.0"
+  },
+  "jest": {
+    "preset": "react-native"
+  }
+}
